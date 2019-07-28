@@ -1,0 +1,36 @@
+xterm*charClass: 33:48,37-38:48,45-47:48,64:48,58:48,126:48,61:48,63:48,43:48,35:48
+
+!*VT100.Translations: #override \n\
+ !! Alt <Key>o: exec-formatted("chromium '%t'", PRIMARY) select-start() select-end()
+
+  *VT100.Translations: #override \n\
+  Alt <Key>u: select-needle("://") select-set(PRIMARY) \n\
+  Alt <Key>o: exec-formatted("chromium '%t'", PRIMARY) select-start() select-end()
+
+
+
+XTerm*metaSendsEscape: true
+!Set the font family and size
+xterm*faceName:  monofur:size=9:antialias=true
+!xterm*faceName:  -xos4-terminus-*r-normal--*-*-72-72-c-*-*-*
+! Molokai theme
+*xterm*background: #5c584c
+*xterm*foreground: white
+*xterm*cursorColor: #d0d0d0
+*xterm*color0: #101010
+*xterm*color1: #960050
+*xterm*color2: #66aa11
+*xterm*color3: #c47f2c
+*xterm*color4: #30309b
+*xterm*color5: #7e40a5
+*xterm*color6: #3579a8
+*xterm*color7: #9999aa
+*xterm*color8: #303030
+*xterm*color9: #ff0090
+*xterm*color10: #80ff00
+*xterm*color11: #ffba68
+*xterm*color12: #5f5fee
+*xterm*color13: #bb88dd
+*xterm*color14: #4eb4fa
+*xterm*color15: #d0d0d0
+
