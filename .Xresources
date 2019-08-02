@@ -14,9 +14,9 @@ XTerm*metaSendsEscape: true
 xterm*faceName:  monofur:size=9:antialias=true
 !xterm*faceName:  -xos4-terminus-*r-normal--*-*-72-72-c-*-*-*
 ! Molokai theme
-*xterm*background: #5c584c
-*xterm*foreground: white
-*xterm*cursorColor: #d0d0d0
+*xterm*background: #36332d
+*xterm*foreground: #ffffff
+*xterm*cursorColor: #00ff3c
 *xterm*color0: #101010
 *xterm*color1: #960050
 *xterm*color2: #66aa11
@@ -33,4 +33,3 @@ xterm*faceName:  monofur:size=9:antialias=true
 *xterm*color13: #bb88dd
 *xterm*color14: #4eb4fa
 *xterm*color15: #d0d0d0
-
