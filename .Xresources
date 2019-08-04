@@ -11,9 +11,16 @@ xterm*charClass: 33:48,37-38:48,45-47:48,64:48,58:48,126:48,61:48,63:48,43:48,35
 
 XTerm*metaSendsEscape: true
 !Set the font family and size
-xterm*faceName:  monofur:size=9:antialias=true
+xterm*faceName:  DejaVu Sans Mono:size=8:antialias=true:autohint=true:rgba=rgb:hinting=true
+
+!XTerm.vt100.translations: #override \n\
+!  Ctrl <Key> minus: smaller-vt-font() \n\
+!  Ctrl <Key> plus: larger-vt-font()
 !xterm*faceName:  -xos4-terminus-*r-normal--*-*-72-72-c-*-*-*
 ! Molokai theme
+
+!*xterm*cursorOnTime: 1200
+*xterm*cursorBlink:  true
 *xterm*background: #36332d
 *xterm*foreground: #ffffff
 *xterm*cursorColor: #00ff3c
