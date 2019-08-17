@@ -15,11 +15,26 @@ XTerm*metaSendsEscape: true
 XTerm.vt100.backarrowKey: false
 XTerm.ttyModes: erase ^?
 xterm*renderFont: true
+
+!------------------!
+!       XFT        !
+!------------------!
+Xft*dpi: 101.76
+Xft*antialias: true
+Xft*hinting: true
+Xft*hintstyle: hintfull
+Xft*rgba: rgb
+
+
 !Set the font family and size
 !xterm*facename: ttf-fira-code:size=9:antialias=true
-!xterm*facename: ttf-monofur:size=9
-xterm*faceName:  DejaVu Sans Mono:size=8:antialias=true:autohint=true:rgba=rgb:hinting=true
-
+!xterm*facename: ttf-monofur:size=9:antialias=true:autohint=true:rgba=rgb:hinting=true  
+!xterm*faceName:  DejaVu Sans Mono:size=7:antialias=true:autohint=true:rgba=rgb:hinting=true
+!xterm*faceName:  ttf-inconsolata:pixelsize=10
+!xterm*faceName:  ttf-hack:pixelsize=1
+!xterm*faceName:   freetype2-cleartype:pixelsize=11
+xterm*faceName:  ubuntu mono:size=8:antialias=true:autohint=true:rgba=rgb:hinting=true
+!xterm*faceName: xft:terminus:size=8
 
 !XTerm.vt100.translations: #override \n\
 !  Ctrl <Key> minus: smaller-vt-font() \n\
@@ -29,7 +44,8 @@ xterm*faceName:  DejaVu Sans Mono:size=8:antialias=true:autohint=true:rgba=rgb:h
 
 !*xterm*cursorOnTime: 1200
 *xterm*cursorBlink:  true
-*xterm*background: #402d33
+*xterm*background:  #402d33
+!*xterm*background: #402d33
 *xterm*foreground: #ffffff
 *xterm*cursorColor: #ffa600
 *xterm*color0: #101010
